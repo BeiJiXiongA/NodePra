@@ -1,0 +1,28 @@
+<% if (!user) { %>
+<div class="hero-unit">
+	<h1>欢迎来到 Microblog</h1>
+	<p>Microblog 是一个基于 Node.js 的微博系统。</p>
+	<p>
+		<a class="btn btn-primary btn-large" href="/login">  </a>
+		<a class="btn btn-large" href="/reg">    </a>
+	</p>
+</div>
+<% } else {%>
+	<%- partial('say') %>
+<% } %>
+<%- partial('posts') %>
+<div class="row">
+	<div class="span4"> 
+		<h2>Carbo  </h2>
+		<p>                       </p> 
+	</div>
+	<div class="span4"> <h2>BYVoid  </h2>
+		<p>
+			Open Chinese Convert OpenCC                                               (libopencc)                                        </p>
+	</div>
+	<div class="span4">
+		<h2>    </h2>
+		<p>         / Rime Input Method Engine                                   
+       http://code.google.com/p/rimeime/                                                          </p>
+     </div>
+ </div>
