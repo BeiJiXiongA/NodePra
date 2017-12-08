@@ -1,0 +1,12 @@
+{
+  "name": "demo_mongdb",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "mongodb": "~2.2.33",
+    "mongoose": "^4.13.6"
+  }
+}
